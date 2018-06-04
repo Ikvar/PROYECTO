@@ -16,6 +16,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Buscador" />
+        <activity
+            android:name=".Mazos"
+            android:label="@string/title_activity_mazos"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Contador"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity
+            android:name=".Historial"
+            android:label="@string/title_activity_historial"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
