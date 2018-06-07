@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.dev2.proyecto">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -21,12 +23,20 @@
             android:name=".Mazos"
             android:label="@string/title_activity_mazos"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".Contador"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity
+            android:name=".Contador"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
             android:name=".Historial"
             android:label="@string/title_activity_historial"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".InsertarMazo"
+            android:theme="@android:style/Theme.Holo.Dialog" />
+        <activity
+            android:name=".InsertarPartida"
+            android:theme="@android:style/Theme.Holo.Dialog" />
+        <activity android:name=".Resultado"></activity>
     </application>
 
 </manifest>

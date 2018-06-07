@@ -2,4 +2,5 @@
     <string name="app_name">PROYECTO</string>
     <string name="title_activity_mazos">Mazos</string>
     <string name="title_activity_historial">Historial</string>
+    <string name="title_activity_insertar_mazo">InsertarMazo</string>
 </resources>
