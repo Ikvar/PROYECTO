@@ -46,7 +46,7 @@
     </LinearLayout>
 
     <TextView
-        android:id="@+id/textView24"
+        android:id="@+id/txtTexto"
         android:layout_width="match_parent"
         android:layout_height="74dp"
         android:text="TextView" />
